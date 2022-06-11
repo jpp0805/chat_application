@@ -6,7 +6,7 @@ import ChatItem from "./ChatItem";
 
 export default class ChatContent extends Component {
   messagesEndRef = createRef(null);
-  chatItms = [
+  chatItems = [
     {
       key: 1,
       image:
