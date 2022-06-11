@@ -10,7 +10,7 @@ export default class ChatList extends Component {
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTA78Na63ws7B7EAWYgTr9BxhX_Z8oLa1nvOA&usqp=CAU",
       id: 1,
-      name: "Tim Hover",
+      name: "Allen David",
       active: true,
       isOnline: true,
     },

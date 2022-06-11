@@ -12,8 +12,8 @@ export default class UserProfile extends Component {
           <div className="profile__image">
             <img src="https://pbs.twimg.com/profile_images/1116431270697766912/-NfnQHvh_400x400.jpg" />
           </div>
-          <h4>Fernando Faucho</h4>
-          <p>CEO & Founder at Highly Inc</p>
+          <h4>Chat Application</h4>
+          <p>Chat app</p>
         </div>
         <div className="profile__card">
           <div className="card__header" onClick={this.toggleInfo}>

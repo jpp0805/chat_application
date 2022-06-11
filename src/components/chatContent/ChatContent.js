@@ -1,6 +1,6 @@
 import React, { Component, createRef } from "react";
 
-// import "./chatContent.css";
+import "./chatContent.css";
 import Avatar from "../chatList/Avatar";
 import ChatItem from "./ChatItem";
 
@@ -12,27 +12,27 @@ export default class ChatContent extends Component {
       image:
         "https://pbs.twimg.com/profile_images/1116431270697766912/-NfnQHvh_400x400.jpg",
       type: "",
-      msg: "Hi Tim, How are you?",
+      msg: "Hi Allen, How are you?",
     },
     {
       key: 2,
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTA78Na63ws7B7EAWYgTr9BxhX_Z8oLa1nvOA&usqp=CAU",
-    //   type: "other",
+      type: "other",
       msg: "I am fine.",
     },
     {
       key: 3,
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTA78Na63ws7B7EAWYgTr9BxhX_Z8oLa1nvOA&usqp=CAU",
-    //   type: "other",
+      type: "other",
       msg: "What about you?",
     },
     {
       key: 4,
       image:
         "https://pbs.twimg.com/profile_images/1116431270697766912/-NfnQHvh_400x400.jpg",
-    //   type: "",
+      type: "",
       msg: "Awesome these days.",
     },
     {
@@ -46,15 +46,15 @@ export default class ChatContent extends Component {
       key: 6,
       image:
         "https://pbs.twimg.com/profile_images/1116431270697766912/-NfnQHvh_400x400.jpg",
-    //   type: "",
-      msg: "what plan mate?",
+      type: "",
+      msg: "Going out ! What about you?",
     },
     {
       key: 7,
       image:
         "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTA78Na63ws7B7EAWYgTr9BxhX_Z8oLa1nvOA&usqp=CAU",
       type: "other",
-      msg: "I'm taliking about the tutorial",
+      msg: "Reading books",
     },
   ];
 
@@ -103,7 +103,7 @@ export default class ChatContent extends Component {
                 isOnline="active"
                 image="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTA78Na63ws7B7EAWYgTr9BxhX_Z8oLa1nvOA&usqp=CAU"
               />
-              <p>Tim Hover</p>
+              <p>Allen David</p>
             </div>
           </div>
 
